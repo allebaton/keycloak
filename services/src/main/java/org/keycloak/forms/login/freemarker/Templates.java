@@ -42,6 +42,12 @@ public class Templates {
                 return "login-recovery-authn-code-input.ftl";
             case LOGIN_RECOVERY_AUTHN_CODES_CONFIG:
                 return "login-recovery-authn-code-config.ftl";
+            case LOGIN_TELEGRAM_OTP:
+                return "login-telegram-otp.ftl";
+            case LOGIN_TELEGRAM_PUSH:
+                return "login-telegram-push.ftl";
+            case LOGIN_TELEGRAM_SETUP:
+                return "login-telegram-setup.ftl";
             case LOGIN_WEBAUTHN:
                 return "webauthn-authenticate.ftl";
             case LOGIN_VERIFY_EMAIL:
